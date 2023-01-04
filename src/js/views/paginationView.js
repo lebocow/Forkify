@@ -25,7 +25,7 @@ class PaginationView extends View {
       return ``;
     }
 
-    let markup = '';
+    let markup = `<p class="pagination__page">${curPage}/${numPages}</p>`;
 
     if (curPage > 1) {
       markup += `
